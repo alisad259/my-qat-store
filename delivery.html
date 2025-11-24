@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات التوصيل</title>
+    
+    <style>
+        /* التنسيقات الأساسية لتناسب جميع الصفحات */
+        body {
+            background-color: #f4f7f6; 
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header-title {
+            background-color: #D2691E; /* لون الشوكولاتة */
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 { color: #4B0082; } /* لون بنفسجي/أزرق للعناوين الفرعية */
+
+        /* تنسيق أيقونة التوصيل */
+        .delivery-img {
+            width: 120px;
+            height: auto;
+            border-radius: 50%; /* لجعل الأيقونة دائرة */
+            border: 3px solid #D2691E;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق قائمة الخدمات (الجديد) */
+        .delivery-list {
+            list-style: none; /* إخفاء النقاط الافتراضية */
+            padding: 0;
+            margin: 0 0 30px 0;
+            text-align: right;
+        }
+        .delivery-list li {
+            background-color: #f9f9f9;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            border-right: 5px solid crimson; /* إطار جانبي أحمر مميز */
+        }
+        .delivery-list ul {
+            list-style-type: none; /* إخفاء نقاط القائمة المتداخلة */
+            padding-right: 15px;
+            padding-top: 5px;
+        }
+
+        /* تنسيق جزء الاتصال (نداء للعمل - Call to Action) */
+        .contact-cta {
+            background-color: #fff8f8; /* خلفية فاتحة تجذب الانتباه */
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px dashed crimson; /* إطار متقطع */
+            margin-top: 30px;
+        }
+        .contact-cta h4 {
+            color: crimson;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .contact-cta a {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50; /* لون أخضر لرقم الهاتف */
+            text-decoration: none;
+        }
+
+        /* زر العودة */
+        .back-btn {
+            background-color: #D2691E;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+        .back-btn:hover {
+            background-color: #A0522D;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+
+    <div class="container">
+        
+        <h1 class="header-title">
+            🛵 خدمات التوصيل السريع
+        </h1>
+
+        <div align="center">
+            <img src="https://cdn-icons-png.flaticon.com/512/2979/2979689.png" alt="توصيل" class="delivery-img">
+        </div>
+
+        <h2>نصلك أينما كنت!</h2>
+        
+        <ul class="delivery-list">
+            <li>🚀 <b>توصيل فوري:</b> داخل ذمار خلال 30 دقيقة.</li>
+            <li>🛵 <b>رسوم التوصيل:</b>
+                <ul>
+                    <li>داخل الحي: مجاناً</li>
+                    <li>مناطق بعيدة: 1000 ريال</li>
+                </ul>
+            </li>
+            <li>📦 <b>الطلبات الخاصة:</b> التغليف والحفظ مجاناً.</li>
+        </ul>
+
+        <div class="contact-cta">
+            <h4>للطلب السريع اتصل بالمندوب:</h4>
+            <a href="tel:+967775663839">775663839</a>
+        </div>
+
+        <a href="index.html" class="back-btn">
+            🏠 العودة للصفحة الرئيسية
+        </a>
+
+        <br><br>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنواع القات المتوفرة</title>
+    
+    <style>
+        /* التنسيقات الأساسية لتناسب الصفحة الرئيسية */
+        body {
+            background-color: #f4f7f6; 
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header-title {
+            background-color: #D2691E; /* لون الشوكولاتة */
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: crimson;
+            margin-bottom: 30px;
+        }
+
+        /* تنسيق بطاقة المنتج (الجديد) */
+        .product-card {
+            border: 1px solid #eee;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            text-align: right; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .product-card h2 {
+            color: #4B0082; /* لون بنفسجي جذاب للعنوان */
+            margin-top: 0;
+            font-size: 24px;
+            border-bottom: 2px solid #D2691E; /* خط فاصل بلون الشركة */
+            padding-bottom: 10px;
+            text-align: center; /* توسيط العنوان داخل البطاقة */
+        }
+        .product-card p {
+            color: #333;
+            font-size: 17px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .product-img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #D2691E;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            display: block; 
+            margin: 15px auto;
+        }
+
+        /* زر العودة */
+        .back-btn {
+            background-color: #D2691E;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .back-btn:hover {
+            background-color: #A0522D;
+        }
+
+        hr { display: none; } /* إخفاء الخطوط الأفقية القديمة */
+    </style>
+</head>
+
+<body dir="rtl">
+
+    <div class="container">
+        
+        <h1 class="header-title">
+            أنواع القات المتوفرة
+        </h1>
+
+        <h3 align="center">أجود الأنواع تقطف يومياً</h3>
+        
+        <div class="product-card">
+            <h2>1- قات أرحبي (فاخر)</h2>
+            <img src="arhabi.jpg" alt="صورة قات ارحبي" class="product-img">
+            <p>
+                🌿 <b>الوصف:</b> يعتبر من أجود الأنواع، يتميز بطراوته وطعمه الحالي. مناسب للمناسبات الخاصة والمقيل الطويل.
+            </p>
+        </div>
+        
+        <div class="product-card">
+            <h2>2- قات همداني (المرغوب)</h2>
+            <img src="hamdani.jpg" alt="صورة قات همداني" class="product-img">
+            <p>
+                🌿 <b>الوصف:</b> يتميز بطول العود وجودة الورقة. هو الخيار الأول للكثيرين بسبب سعره المناسب وجودته الممتازة.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <h2>3- قات شامي (مختارة)</h2>
+            <img src="shami.jpg" alt="صورة قات شامي" class="product-img">
+            <p>
+                🌿 <b>الوصف:</b> قات ناعم وخفيف، مناسب لمن يفضلون التخزينة الهادئة.
+            </p>
+        </div>
+
+        <br>
+
+        <a href="index.html" class="back-btn">
+            🏠 العودة للصفحة الرئيسية
+        </a>
+
+        <br><br>
+
+    </div>
+
+</body>
+</html>

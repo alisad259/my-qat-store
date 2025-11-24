@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الأسعار</title>
+    
+    <style>
+        /* التنسيقات الأساسية لتناسب الصفحة الرئيسية */
+        body {
+            background-color: #f4f7f6; 
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header-title {
+            background-color: #D2691E; /* لون الشوكولاتة */
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: crimson;
+            margin-bottom: 30px;
+        }
+
+        /* تنسيق الجدول (الجديد) */
+        .price-table {
+            width: 100%; 
+            border-collapse: collapse; /* لإزالة الفراغات بين الحدود */
+            margin: 30px 0;
+            font-size: 18px;
+        }
+        .price-table th {
+            background-color: #D2691E; /* لون الشوكولاتة لرأس الجدول */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #A0522D;
+        }
+        .price-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+            color: #333;
+        }
+        /* لتلوين صف وصف لزيادة الوضوح (Zebra Striping) */
+        .price-table tr:nth-child(even) {
+            background-color: #f9f9f9; 
+        }
+
+        /* زر العودة */
+        .back-btn {
+            background-color: #D2691E;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .back-btn:hover {
+            background-color: #A0522D;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+
+    <div class="container">
+        
+        <h1 class="header-title">
+            💰 قائمة أسعار القات اليوم 💰
+        </h1>
+
+        <h3>أسعار منافسة وجودة عالية</h3>
+
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>النوع</th>
+                    <th>السعر (ريال يمني)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>قات أرحبي (فاخر)</td>
+                    <td>10,000</td>
+                </tr>
+                <tr>
+                    <td>قات همداني</td>
+                    <td>7,000</td>
+                </tr>
+                <tr>
+                    <td>قات شامي</td>
+                    <td>5,000</td>
+                </tr>
+                <tr>
+                    <td>قات بلدي</td>
+                    <td>3,000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <a href="index.html" class="back-btn">
+            🏠 العودة للصفحة الرئيسية
+        </a>
+
+        <br><br>
+
+    </div>
+
+</body>
+</html>
